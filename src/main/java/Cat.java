@@ -1,7 +1,7 @@
 public class Cat {
     public String name;
     public int appetite;
-    public boolean satiety;
+    public boolean satiety;  //сытость
 
 
     public Cat(String name, int appetite) {

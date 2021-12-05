@@ -11,15 +11,18 @@ public class Plate {
             food -= n;
             cat_satiety = true;
             System.out.print(" поел ");
-                    } else {
+        } else {
             System.out.print(" коту не хватило еды");
 
         }
-        return cat_satiety;
+        return cat_satiety; // этот метод не только уменьшает еду и кормит котов но и сообщает о сытости  кота
     }
 
     public void info() {
-        System.out.println("в тарелке " + food);
+        System.out.println("в тарелке: " + food);
     }
 
+    public void addFood(int z) {
+        food += z;
+    }
 }
